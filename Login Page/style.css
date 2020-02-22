@@ -1,0 +1,363 @@
+.mainDiv{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+    width: XXXpx; /*otherwise div defaults to page width*/
+    margin: 0 auto; /*horizontally centers div*/
+    height:100%;
+    background-color: #6694CB; 
+    background-image: linear-gradient(to bottom , #6694CB , #B7ADCB);
+}
+.IOTA{
+    margin:auto;
+    width: 55%;
+    padding: 10px; 
+    color: lavender;
+}
+
+.title{
+    margin:auto;
+    margin-top:8%;
+    width: 55%;
+    padding: 10px;
+    color: lavender;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Heebo', sans-serif;
+}
+
+.loginSection{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    align-content: center;
+    margin-top: 20px;
+    /* width:250px; */
+    height:300px;
+    /* background-color: black;
+    opacity:0.9; */
+    color:white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    border-radius: 1em;
+}
+
+.Inputs input{
+    margin-top:5px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 25px;
+    border-radius:1em;
+    padding:15px;
+    color:#1B4273 ;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+.btn{
+    margin: auto;
+    margin-top:5px;
+    width: 60%;
+    padding: 10px;
+    width:210px;
+    padding:15px;
+    background: #52B5D8 ;
+    color:lavender;
+    border-radius: 1em;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn2{
+    margin: auto;
+    margin-top:10px;
+    width: 65%;
+    padding:15px;
+    margin-left: 17.5%;
+    border-radius: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+    background: lavenderblush;
+    color:#1B4273;
+
+}
+
+@media only screen and (min-width: 768px){
+
+    .title{
+        margin:auto;
+        margin-top:4%;
+        width: 55%;
+        padding: 10px;
+    }
+
+    .loginSection{
+        margin: auto;
+        width: 45%;
+        padding: 10px;
+        align-content: center;
+        margin-top: 20px;
+        height:280px;
+        color:white;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        border-radius: 1em;
+    }
+
+    .Inputs input{
+        margin-top:5px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 25px;
+        border-radius:1em;
+        padding:15px;
+        color:#1B4273 ;
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+
+    .btn{
+        margin: auto;
+        margin-top:5px;
+        width: 60%;
+        padding: 10px;
+        width:330px;
+        padding:15px;
+        font-size:15px;
+    }
+
+    .btn2{
+        margin: auto;
+        margin-top:10px;
+        width: 49%;
+        padding:15px;
+        margin-left: 25.5%;
+        font-size:15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1000px){
+
+    .title{
+        margin:auto;
+        margin-top:3%;
+        width: 50%;
+        padding: 10px;
+        font-size: 30px;
+  
+    }
+    .IOTA{
+        margin:auto;
+        width: 50%;
+        padding: 10px; 
+        color: lavender;
+    }
+    .loginSection{
+        margin: auto;
+        width: 33%;
+        padding: 10px;
+        align-content: center;
+        margin-top: 20px;
+        /* width:250px; */
+        height:280px;
+        font-size: 14px;
+    }
+
+    .Inputs input{
+        margin-top:10px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 25px;
+        padding:15px;
+        font-size:15px;
+    }
+
+    .btn2{
+        margin: auto;
+        margin-top:10px;
+        width: 35%;
+        padding:15px;
+        margin-left: 32.5%;
+        font-size:15px;
+    }
+
+}
+
+/* 
+@media only screen and (min-width: 300px){
+
+    .title{
+        margin:auto;
+        margin-top:3%;
+        width: 50%;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .IOTA{
+        margin:auto;
+        width: 50%;
+        padding: 10px; 
+        color: lavender;
+    }
+
+    .loginSection{
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+        align-content: center;
+        margin-top: 18px;
+        height:220px;
+        color:white;
+        font-size: 12px;
+        background: rgba(0, 0, 0, 0.5); 
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        border-radius: 1em;
+    }
+
+    .Inputs input{
+        margin-top:15px;
+        margin-bottom: 15px;
+        width: 180px;
+        height: 12px;
+        border-radius:1em;
+        padding:5px;
+        color:#1B4273 ;
+        font-size:10px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    .btn{
+        margin: auto;
+        margin-top:10px;
+        width: 60%;
+        width:200px;
+
+        font-size:10px;
+        padding:5px;
+        padding-top: 0;
+        /* padding:5px;
+        background: #52B5D8 ;
+        color:lavender;
+        border-radius: 1em;
+        font-size:10px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder; 
+    }
+
+    .btn2{
+        margin: auto;
+        margin-top:10px;
+        width: 74%;
+        padding:5px;
+        margin-left: 14%;
+        border-radius: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+        font-size:12px;
+        background: lavenderblush;
+        color:#1B4273;
+    
+    }
+} */
+
+@media only screen and (min-width: 1360px){
+
+    .title{
+        margin:auto;
+        margin-top:3%;
+        width: 50%;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .IOTA{
+        margin:auto;
+        width: 50%;
+        padding: 10px; 
+        color: lavender;
+    }
+
+    .loginSection{
+        margin: auto;
+        width: 30%;
+        padding: 10px;
+        align-content: center;
+        margin-top: 18px;
+        height:380px;
+        color:white;
+        font-size: 20px;
+        background: rgba(0, 0, 0, 0.5); 
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        border-radius: 1em;
+    }
+
+    .Inputs input{
+        margin-top:15px;
+        margin-bottom: 15px;
+        width: 350px;
+        height: 40px;
+        border-radius:1em;
+        padding:15px;
+        color:#1B4273 ;
+        font-size:20px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    .btn{
+        margin: auto;
+        margin-top:5px;
+        width: 60%;
+        padding: 10px;
+        width:380px;
+        padding:20px;
+        background: #52B5D8 ;
+        color:lavender;
+        border-radius: 1em;
+        font-size:20px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+    }
+
+    .btn2{
+        margin: auto;
+        margin-top:10px;
+        width: 32%;
+        padding:15px;
+        margin-left: 34%;
+        border-radius: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bolder;
+        font-size:20px;
+        background: lavenderblush;
+        color:#1B4273;
+    
+    }
+}
+
